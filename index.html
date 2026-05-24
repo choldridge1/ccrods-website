@@ -4,26 +4,19 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Chris's Custom Rods | Handcrafted Fishing Rods — Florida</title>
-  <meta name="description" content="Handcrafted custom fishing rods built in Florida. Tournament-grade performance, artisan craftsmanship. Every rod built to your exact specs."/>
+  <meta name="description" content="Handcrafted custom fishing rods built in Florida. Tournament-grade performance, artisan craftsmanship."/>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
 
-<!-- NAV -->
 <header class="site-header" id="siteHeader">
   <div class="header-inner">
     <a href="index.html" class="logo-wrap">
-      <!-- SVG Logo Mark -->
-      <svg class="logo-svg" viewBox="0 0 180 54" xmlns="http://www.w3.org/2000/svg">
-        <text x="0" y="40" font-family="Oswald,sans-serif" font-weight="700" font-size="38" letter-spacing="-1" fill="#1a1a1a">CC</text>
-        <text x="54" y="40" font-family="Oswald,sans-serif" font-weight="300" font-size="38" letter-spacing="1" fill="#1a1a1a">RODS</text>
-        <!-- fishing line accent -->
-        <line x1="0" y1="47" x2="178" y2="47" stroke="#c0392b" stroke-width="2.5"/>
-        <!-- hook graphic -->
-        <path d="M170 47 Q178 47 178 54" fill="none" stroke="#c0392b" stroke-width="2.5" stroke-linecap="round"/>
-      </svg>
+      <div class="logo-text">CC<span>RODS</span></div>
+      <div class="logo-line"></div>
     </a>
     <nav class="main-nav">
       <ul>
@@ -39,6 +32,7 @@
     </button>
   </div>
   <div class="mobile-nav" id="mobileNav">
+    <button class="close-nav" id="closeNav">✕</button>
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="order.html">Order</a></li>
@@ -49,330 +43,68 @@
   </div>
 </header>
 
-<!-- HERO -->
+<!-- HERO with real photo -->
 <section class="hero">
-  <!-- SVG water/wave graphic -->
-  <div class="hero-graphic">
-    <svg viewBox="0 0 1400 600" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
-      <!-- sky gradient -->
-      <defs>
-        <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stop-color="#0a1628"/>
-          <stop offset="60%" stop-color="#1a3a5c"/>
-          <stop offset="100%" stop-color="#2d6a8a"/>
-        </linearGradient>
-        <linearGradient id="waterGrad" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stop-color="#1d4e6e"/>
-          <stop offset="100%" stop-color="#0d2a3a"/>
-        </linearGradient>
-        <linearGradient id="sunGrad" cx="50%" cy="50%" r="50%" fx="50%" fy="50%" id="sunGrad" gradientUnits="objectBoundingBox">
-          <stop offset="0%" stop-color="#f4a623" stop-opacity="0.9"/>
-          <stop offset="100%" stop-color="#e07b39" stop-opacity="0"/>
-        </linearGradient>
-      </defs>
-      <!-- sky -->
-      <rect width="1400" height="600" fill="url(#skyGrad)"/>
-      <!-- sun glow -->
-      <ellipse cx="700" cy="260" rx="220" ry="180" fill="#f4a623" opacity="0.12"/>
-      <ellipse cx="700" cy="270" rx="120" ry="100" fill="#f8c96e" opacity="0.18"/>
-      <circle cx="700" cy="280" r="55" fill="#fde3a0" opacity="0.6"/>
-      <!-- sun rays -->
-      <g opacity="0.15" stroke="#fde3a0" stroke-width="1">
-        <line x1="700" y1="200" x2="700" y2="120"/>
-        <line x1="700" y1="200" x2="760" y2="130"/>
-        <line x1="700" y1="200" x2="640" y2="130"/>
-        <line x1="700" y1="200" x2="790" y2="165"/>
-        <line x1="700" y1="200" x2="610" y2="165"/>
-        <line x1="700" y1="200" x2="800" y2="210"/>
-        <line x1="700" y1="200" x2="600" y2="210"/>
-      </g>
-      <!-- horizon line -->
-      <rect x="0" y="320" width="1400" height="280" fill="url(#waterGrad)"/>
-      <!-- water shimmer lines -->
-      <g opacity="0.25" stroke="#7ec8e3" stroke-width="1">
-        <line x1="500" y1="340" x2="680" y2="340"/>
-        <line x1="720" y1="340" x2="900" y2="340"/>
-        <line x1="420" y1="355" x2="560" y2="355"/>
-        <line x1="600" y1="355" x2="750" y2="355"/>
-        <line x1="780" y1="355" x2="950" y2="355"/>
-        <line x1="350" y1="372" x2="520" y2="372"/>
-        <line x1="560" y1="372" x2="720" y2="372"/>
-        <line x1="760" y1="372" x2="1020" y2="372"/>
-        <line x1="280" y1="392" x2="480" y2="392"/>
-        <line x1="520" y1="392" x2="700" y2="392"/>
-        <line x1="740" y1="392" x2="1100" y2="392"/>
-      </g>
-      <!-- mangrove silhouettes left -->
-      <g fill="#0a1628" opacity="0.8">
-        <ellipse cx="80" cy="310" rx="70" ry="40"/>
-        <ellipse cx="50" cy="295" rx="45" ry="30"/>
-        <ellipse cx="140" cy="300" rx="55" ry="35"/>
-        <rect x="70" y="310" width="10" height="40"/>
-        <rect x="45" y="295" width="8" height="55"/>
-        <rect x="130" y="300" width="10" height="50"/>
-        <!-- root tangle -->
-        <path d="M55 340 Q65 335 75 345 Q80 330 90 340 Q95 328 105 338" fill="none" stroke="#0a1628" stroke-width="3"/>
-      </g>
-      <!-- mangrove silhouettes right -->
-      <g fill="#0a1628" opacity="0.8">
-        <ellipse cx="1320" cy="308" rx="75" ry="42"/>
-        <ellipse cx="1360" cy="292" rx="50" ry="33"/>
-        <ellipse cx="1260" cy="302" rx="60" ry="36"/>
-        <rect x="1315" y="308" width="10" height="42"/>
-        <rect x="1355" y="292" width="8" height="58"/>
-        <rect x="1255" y="302" width="10" height="48"/>
-        <path d="M1255 345 Q1265 338 1275 348 Q1280 333 1292 342 Q1297 330 1310 340" fill="none" stroke="#0a1628" stroke-width="3"/>
-      </g>
-      <!-- fishing rod silhouette -->
-      <g opacity="0.7">
-        <!-- rod blank -->
-        <line x1="200" y1="180" x2="950" y2="305" stroke="#c8a96e" stroke-width="3.5" stroke-linecap="round"/>
-        <!-- guides -->
-        <circle cx="350" cy="213" r="5" fill="none" stroke="#c8a96e" stroke-width="1.5"/>
-        <circle cx="480" cy="234" r="5" fill="none" stroke="#c8a96e" stroke-width="1.5"/>
-        <circle cx="600" cy="253" r="4" fill="none" stroke="#c8a96e" stroke-width="1.5"/>
-        <circle cx="710" cy="270" r="3.5" fill="none" stroke="#c8a96e" stroke-width="1.5"/>
-        <circle cx="810" cy="284" r="3" fill="none" stroke="#c8a96e" stroke-width="1.5"/>
-        <!-- reel seat area -->
-        <rect x="168" y="175" width="45" height="14" rx="4" fill="#8b6914" opacity="0.9"/>
-        <rect x="185" y="172" width="15" height="5" rx="2" fill="#a07820"/>
-        <!-- handle -->
-        <rect x="130" y="174" width="42" height="16" rx="7" fill="#5c3d1e" opacity="0.9"/>
-        <!-- fishing line -->
-        <path d="M950 305 Q1050 270 1100 280 Q1120 282 1115 295 Q1110 308 1095 305 Q1080 302 1075 315" fill="none" stroke="#ddd" stroke-width="1" opacity="0.6"/>
-      </g>
-      <!-- pelican silhouette -->
-      <g fill="#0a1628" opacity="0.5" transform="translate(1050, 180)">
-        <ellipse cx="0" cy="0" rx="20" ry="10"/>
-        <ellipse cx="-5" cy="-8" rx="10" ry="7"/>
-        <path d="M5 -8 Q20 -12 30 -6 Q28 -2 20 -4 Q15 -2 10 -3" fill="#0a1628"/>
-        <path d="M-30 5 Q-50 -5 -55 -2 Q-52 5 -42 3" fill="#0a1628"/>
-        <path d="M25 5 Q45 -5 50 -3 Q48 5 38 4" fill="#0a1628"/>
-      </g>
-      <!-- Florida state subtle watermark -->
-      <g opacity="0.04" fill="#ffffff">
-        <path d="M680 80 L700 70 L720 80 L720 130 Q730 140 725 155 Q715 165 700 160 Q685 165 675 155 Q670 140 680 130 Z"/>
-      </g>
-    </svg>
-  </div>
-
+  <div class="hero-img" style="background-image:url('https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1600&q=80')"></div>
+  <div class="hero-overlay"></div>
   <div class="hero-content">
     <p class="hero-eyebrow">Handcrafted in Florida</p>
     <h1 class="hero-title">The Perfect Rod<br/>For Any Angler</h1>
-    <div class="hero-rotator">
-      <span>Any </span>
-      <div class="rotate-wrap">
-        <span class="rotate-word active">Species</span>
-        <span class="rotate-word">Technique</span>
-        <span class="rotate-word">Skill Level</span>
-      </div>
+    <div class="hero-rotator-line">
+      Any&nbsp;<span class="rotate-wrap"><span class="rotate-word active">Species</span><span class="rotate-word">Technique</span><span class="rotate-word">Skill Level</span></span>
     </div>
     <p class="hero-tagline">I Can Build It.</p>
-    <a href="contact.html" class="btn-red">Contact Me</a>
+    <a href="contact.html" class="btn-red large">Contact Me</a>
   </div>
-  <div class="hero-scroll-hint">↓</div>
 </section>
 
-<!-- 3 STEPS -->
+<!-- STATS -->
+<div class="stats-bar">
+  <div class="stat-item"><span class="snum">500+</span><span class="slbl">Rods Built</span></div>
+  <div class="stat-item"><span class="snum">15+</span><span class="slbl">Years Experience</span></div>
+  <div class="stat-item"><span class="snum">48</span><span class="slbl">States Shipped</span></div>
+  <div class="stat-item"><span class="snum">100%</span><span class="slbl">Handcrafted</span></div>
+</div>
+
+<!-- THREE STEPS -->
 <section class="three-steps">
   <div class="container">
+    <p class="section-eyebrow">How It Works</p>
+    <h2 class="section-title">Three Steps to Your Perfect Rod</h2>
     <div class="steps-grid">
       <div class="step-item">
-        <!-- SVG blank icon -->
-        <div class="step-icon">
-          <svg viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="40" cy="40" r="38" fill="#f5f0e8" stroke="#c0392b" stroke-width="2"/>
-            <!-- rod blank -->
-            <line x1="15" y1="62" x2="68" y2="22" stroke="#5c3d1e" stroke-width="4" stroke-linecap="round"/>
-            <!-- tip -->
-            <line x1="64" y1="25" x2="72" y2="18" stroke="#8b6914" stroke-width="2" stroke-linecap="round"/>
-            <!-- handle end -->
-            <rect x="10" y="58" width="14" height="8" rx="4" fill="#5c3d1e"/>
-          </svg>
-        </div>
+        <div class="step-num">01</div>
         <h3>Choose Your Blank</h3>
-        <p>From tuna to snook to largemouth, I'll help you select the perfect blank for your application and Florida waters.</p>
+        <p>From tuna to snook to largemouth — I'll help you select the right blank for your species, technique, and Florida waters.</p>
       </div>
       <div class="step-item">
-        <div class="step-icon">
-          <svg viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="40" cy="40" r="38" fill="#f5f0e8" stroke="#c0392b" stroke-width="2"/>
-            <!-- guide ring -->
-            <circle cx="40" cy="36" r="14" fill="none" stroke="#8b6914" stroke-width="3"/>
-            <circle cx="40" cy="36" r="9" fill="none" stroke="#c0392b" stroke-width="2"/>
-            <!-- guide foot -->
-            <line x1="40" y1="50" x2="40" y2="62" stroke="#5c3d1e" stroke-width="3"/>
-            <line x1="28" y1="62" x2="52" y2="62" stroke="#5c3d1e" stroke-width="3" stroke-linecap="round"/>
-            <!-- reel seat -->
-            <rect x="26" y="56" width="28" height="8" rx="3" fill="#8b6914"/>
-          </svg>
-        </div>
+        <div class="step-num">02</div>
         <h3>Select Your Components</h3>
-        <p>From high-end Fuji hardware to colorful wraps — you decide the quality and look of your custom build.</p>
+        <p>Fuji guides, premium cork, custom reel seats — you decide the quality and look of your build from a wide range of components.</p>
       </div>
       <div class="step-item">
-        <div class="step-icon">
-          <svg viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="40" cy="40" r="38" fill="#f5f0e8" stroke="#c0392b" stroke-width="2"/>
-            <!-- color palette -->
-            <circle cx="28" cy="38" r="9" fill="#c0392b"/>
-            <circle cx="40" cy="30" r="9" fill="#2980b9"/>
-            <circle cx="52" cy="38" r="9" fill="#27ae60"/>
-            <circle cx="40" cy="50" r="9" fill="#f39c12"/>
-            <!-- center overlap -->
-            <circle cx="40" cy="40" r="6" fill="#1a1a1a" opacity="0.15"/>
-            <!-- check -->
-            <polyline points="36,40 39,43 44,37" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        </div>
+        <div class="step-num">03</div>
         <h3>Pick Your Colors</h3>
-        <p>Choose any color combo or theme. I can even build it to match your favorite team or Florida colors.</p>
+        <p>Any color combo or theme. Team colors, custom inscriptions, matching sets — the possibilities are endless.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- PHOTO GRID (SVG illustrations) -->
+<!-- PHOTO GALLERY -->
 <section class="gallery-section">
   <div class="gallery-grid">
-    <div class="gallery-item gi-tall">
-      <svg viewBox="0 0 400 600" xmlns="http://www.w3.org/2000/svg">
-        <defs>
-          <linearGradient id="g1" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="#0d2a3a"/>
-            <stop offset="100%" stop-color="#1d5c3a"/>
-          </linearGradient>
-        </defs>
-        <rect width="400" height="600" fill="url(#g1)"/>
-        <!-- redfish silhouette -->
-        <g transform="translate(200,320) scale(1.4)">
-          <ellipse cx="0" cy="0" rx="90" ry="30" fill="#c8730a" opacity="0.85"/>
-          <ellipse cx="-20" cy="0" rx="75" ry="25" fill="#d4820b"/>
-          <!-- tail -->
-          <path d="M85 0 Q105 -25 115 0 Q105 25 85 0" fill="#c8730a"/>
-          <!-- dorsal fin -->
-          <path d="M-20 -25 Q0 -50 30 -30 Q10 -25 -20 -25" fill="#b86909"/>
-          <!-- eye -->
-          <circle cx="-65" cy="-5" r="6" fill="#1a1a1a"/>
-          <circle cx="-63" cy="-7" r="2" fill="white"/>
-          <!-- spot -->
-          <circle cx="60" cy="5" r="12" fill="#8b4000" opacity="0.8"/>
-          <circle cx="60" cy="5" r="7" fill="#1a1a1a" opacity="0.6"/>
-        </g>
-        <!-- water line -->
-        <path d="M0 400 Q100 388 200 395 Q300 402 400 390 L400 600 L0 600 Z" fill="#0a1e28" opacity="0.6"/>
-        <!-- label -->
-        <text x="200" y="560" font-family="Oswald,sans-serif" font-size="16" fill="rgba(255,255,255,0.7)" text-anchor="middle" letter-spacing="3">REDFISH</text>
-      </svg>
+    <div class="gallery-item gi-tall" style="background-image:url('https://images.unsplash.com/photo-1521651201144-634f700b36ef?w=800&q=80')">
+      <div class="gal-label">Inshore Builds</div>
     </div>
-    <div class="gallery-item gi-sq">
-      <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
-        <defs>
-          <linearGradient id="g2" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="#1a2a1a"/>
-            <stop offset="100%" stop-color="#0d1e0d"/>
-          </linearGradient>
-        </defs>
-        <rect width="400" height="400" fill="url(#g2)"/>
-        <!-- bass -->
-        <g transform="translate(200,200)">
-          <ellipse cx="0" cy="0" rx="100" ry="38" fill="#3d5c1e"/>
-          <ellipse cx="-15" cy="0" rx="85" ry="32" fill="#4a6e22"/>
-          <!-- stripes -->
-          <ellipse cx="-10" cy="12" rx="70" ry="8" fill="#2a4010" opacity="0.5"/>
-          <!-- tail -->
-          <path d="M95 0 Q120 -30 130 0 Q120 30 95 0" fill="#3d5c1e"/>
-          <!-- dorsal fin -->
-          <path d="M-30 -32 Q-10 -58 30 -40 Q10 -32 -30 -32" fill="#2d4a18"/>
-          <path d="M30 -32 Q50 -50 70 -35 Q55 -28 30 -32" fill="#2d4a18"/>
-          <!-- mouth -->
-          <path d="M-90 -5 Q-100 0 -90 5" fill="none" stroke="#1a2a0a" stroke-width="3" stroke-linecap="round"/>
-          <!-- eye -->
-          <circle cx="-78" cy="-8" r="8" fill="#c8a000"/>
-          <circle cx="-76" cy="-9" r="4" fill="#1a1a1a"/>
-          <circle cx="-74" cy="-11" r="1.5" fill="white"/>
-        </g>
-        <text x="200" y="375" font-family="Oswald,sans-serif" font-size="15" fill="rgba(255,255,255,0.65)" text-anchor="middle" letter-spacing="3">LARGEMOUTH BASS</text>
-      </svg>
+    <div class="gallery-item gi-sq" style="background-image:url('https://images.unsplash.com/photo-1500505777927-76a426eaeb1f?w=800&q=80')">
+      <div class="gal-label">Custom Wraps</div>
     </div>
-    <div class="gallery-item gi-sq">
-      <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
-        <defs>
-          <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1">
-            <stop offset="0%" stop-color="#1a0a2e"/>
-            <stop offset="100%" stop-color="#0d1e3a"/>
-          </linearGradient>
-        </defs>
-        <rect width="400" height="400" fill="url(#g3)"/>
-        <!-- rod wrap detail closeup illustration -->
-        <!-- rod blank tube -->
-        <rect x="60" y="160" width="280" height="28" rx="14" fill="#3a2a1a"/>
-        <!-- wrap sections -->
-        <rect x="80" y="162" width="30" height="24" rx="2" fill="#c0392b"/>
-        <rect x="112" y="162" width="6" height="24" fill="#f4a623"/>
-        <rect x="120" y="162" width="30" height="24" rx="2" fill="#2980b9"/>
-        <rect x="152" y="162" width="6" height="24" fill="#f4a623"/>
-        <rect x="160" y="162" width="30" height="24" rx="2" fill="#c0392b"/>
-        <rect x="192" y="162" width="6" height="24" fill="#f4a623"/>
-        <rect x="200" y="162" width="20" height="24" rx="2" fill="#1a1a1a"/>
-        <!-- guide ring -->
-        <circle cx="270" cy="174" r="26" fill="none" stroke="#8b6914" stroke-width="4"/>
-        <circle cx="270" cy="174" r="18" fill="none" stroke="#c8a96e" stroke-width="2"/>
-        <circle cx="270" cy="174" r="10" fill="none" stroke="#aaa" stroke-width="1.5"/>
-        <!-- guide foot -->
-        <line x1="250" y1="174" x2="235" y2="174" stroke="#8b6914" stroke-width="3"/>
-        <line x1="290" y1="174" x2="305" y2="174" stroke="#8b6914" stroke-width="3"/>
-        <!-- thread wrapping at foot -->
-        <rect x="228" y="162" width="12" height="24" rx="2" fill="#c0392b"/>
-        <rect x="300" y="162" width="12" height="24" rx="2" fill="#c0392b"/>
-        <!-- epoxy sheen -->
-        <rect x="60" y="163" width="280" height="6" rx="3" fill="rgba(255,255,255,0.08)"/>
-        <text x="200" y="250" font-family="Oswald,sans-serif" font-size="15" fill="rgba(255,255,255,0.65)" text-anchor="middle" letter-spacing="3">CUSTOM WRAPS</text>
-      </svg>
+    <div class="gallery-item gi-sq" style="background-image:url('https://images.unsplash.com/photo-1584646098378-0f5d5f469a3b?w=800&q=80')">
+      <div class="gal-label">Saltwater Rods</div>
     </div>
-    <div class="gallery-item gi-wide">
-      <svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
-        <defs>
-          <linearGradient id="g4" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="#0a1428"/>
-            <stop offset="100%" stop-color="#1a3a5c"/>
-          </linearGradient>
-        </defs>
-        <rect width="800" height="400" fill="url(#g4)"/>
-        <!-- florida sunset water scene -->
-        <!-- sun -->
-        <circle cx="400" cy="180" r="55" fill="#f4a623" opacity="0.85"/>
-        <ellipse cx="400" cy="180" rx="90" ry="70" fill="#f4a623" opacity="0.15"/>
-        <!-- sun reflection on water -->
-        <ellipse cx="400" cy="330" rx="60" ry="18" fill="#f4a623" opacity="0.4"/>
-        <rect x="390" y="248" width="20" height="80" fill="#f4a623" opacity="0.25"/>
-        <!-- horizon -->
-        <rect x="0" y="248" width="800" height="160" fill="#0d2840" opacity="0.8"/>
-        <!-- water ripples -->
-        <ellipse cx="400" cy="270" rx="200" ry="8" fill="none" stroke="#7ec8e3" stroke-width="1" opacity="0.3"/>
-        <ellipse cx="400" cy="290" rx="280" ry="10" fill="none" stroke="#7ec8e3" stroke-width="1" opacity="0.2"/>
-        <ellipse cx="400" cy="315" rx="350" ry="12" fill="none" stroke="#7ec8e3" stroke-width="1" opacity="0.15"/>
-        <!-- palm silhouettes -->
-        <g fill="#050e1a">
-          <!-- left palm -->
-          <rect x="100" y="180" width="8" height="120"/>
-          <path d="M104 185 Q80 150 50 145 Q70 165 85 175 Q60 155 40 158 Q65 172 82 178"/>
-          <path d="M104 185 Q90 145 100 115 Q100 140 108 160"/>
-          <path d="M104 185 Q125 148 155 142 Q132 162 118 172 Q142 155 160 156 Q135 170 120 178"/>
-          <!-- right palm -->
-          <rect x="690" y="170" width="8" height="130"/>
-          <path d="M694 175 Q670 140 640 135 Q660 155 675 165 Q650 145 630 148 Q655 162 672 168"/>
-          <path d="M694 175 Q680 135 690 105 Q690 130 698 150"/>
-          <path d="M694 175 Q715 138 745 132 Q722 152 708 162 Q732 145 750 146 Q725 160 710 168"/>
-        </g>
-        <!-- boat silhouette -->
-        <g fill="#050e1a" transform="translate(350, 240)">
-          <path d="M-40 0 Q-35 -12 35 -12 Q40 0 -40 0 Z"/>
-          <rect x="-5" y="-28" width="4" height="18"/>
-          <path d="M-1 -28 L20 -20 L-1 -16 Z" fill="#050e1a"/>
-        </g>
-        <text x="400" y="385" font-family="Oswald,sans-serif" font-size="15" fill="rgba(255,255,255,0.5)" text-anchor="middle" letter-spacing="4">FLORIDA WATERS</text>
-      </svg>
+    <div class="gallery-item gi-wide" style="background-image:url('https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1200&q=80')">
+      <div class="gal-label">Florida Waters</div>
     </div>
   </div>
 </section>
@@ -380,105 +112,57 @@
 <!-- ABOUT -->
 <section class="about-section">
   <div class="container about-grid">
-    <div class="about-text">
-      <h2>Taking the rods we all know and love<br/>and making them <em>CUSTOM!</em></h2>
-      <p>Custom built casting, spinning, and saltwater rods using only the best components — made to <strong>YOUR</strong> specs.</p>
-      <p>Going custom means you choose the components, colors, and character. Whether you need a rod built for a specific technique or just want a longer butt section, I can do it. The possibilities are endless.</p>
-      <p>I handcraft every rod right here in <strong>Florida</strong>. From the flats of Tampa Bay to the backwaters of the St. Johns River, I grew up fishing these waters and I build rods that perform in them. It doesn't matter if you're chasing snook in the mangroves, fighting tarpon on the flats, or working offshore for mahi — I build rods that match the mission.</p>
-      <p>I work within a wide range of budgets, and price is determined by the blank and components you choose.</p>
-      <div class="about-sig">
-        <svg viewBox="0 0 160 50" xmlns="http://www.w3.org/2000/svg" class="sig-svg">
-          <path d="M10 35 Q30 10 50 30 Q60 38 70 25 Q80 12 95 28 Q108 40 120 22 Q132 8 148 32" fill="none" stroke="#c0392b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-        <span>Chris — Owner &amp; Builder</span>
-      </div>
+    <div class="about-img-wrap">
+      <img src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=700&q=80" alt="Custom rod building workbench" loading="lazy"/>
     </div>
-    <div class="about-visual">
-      <!-- Workbench SVG illustration -->
-      <svg viewBox="0 0 420 480" xmlns="http://www.w3.org/2000/svg" class="workbench-svg">
-        <defs>
-          <linearGradient id="woodGrad" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="#8b5e3c"/>
-            <stop offset="100%" stop-color="#5c3d1e"/>
-          </linearGradient>
-        </defs>
-        <!-- bench top -->
-        <rect x="20" y="200" width="380" height="24" rx="3" fill="url(#woodGrad)"/>
-        <rect x="20" y="202" width="380" height="4" fill="rgba(255,255,255,0.1)"/>
-        <!-- wood grain lines -->
-        <line x1="60" y1="202" x2="60" y2="222" stroke="rgba(0,0,0,0.1)" stroke-width="1"/>
-        <line x1="130" y1="202" x2="130" y2="222" stroke="rgba(0,0,0,0.1)" stroke-width="1"/>
-        <line x1="220" y1="202" x2="220" y2="222" stroke="rgba(0,0,0,0.1)" stroke-width="1"/>
-        <line x1="310" y1="202" x2="310" y2="222" stroke="rgba(0,0,0,0.1)" stroke-width="1"/>
-        <line x1="370" y1="202" x2="370" y2="222" stroke="rgba(0,0,0,0.1)" stroke-width="1"/>
-        <!-- bench legs -->
-        <rect x="40" y="224" width="16" height="220" rx="2" fill="#4a2e12"/>
-        <rect x="360" y="224" width="16" height="220" rx="2" fill="#4a2e12"/>
-        <!-- bench shelf -->
-        <rect x="20" y="340" width="380" height="16" rx="2" fill="#6b4820"/>
-        <!-- rod on bench -->
-        <line x1="30" y1="198" x2="395" y2="188" stroke="#c8a96e" stroke-width="6" stroke-linecap="round"/>
-        <!-- rod guides on bench rod -->
-        <g stroke="#8b6914" stroke-width="2" fill="none">
-          <circle cx="120" cy="193" r="9"/>
-          <circle cx="200" cy="191" r="8"/>
-          <circle cx="270" cy="190" r="7"/>
-          <circle cx="330" cy="189" r="6"/>
-          <circle cx="378" cy="188" r="5"/>
-        </g>
-        <!-- reel seat area -->
-        <rect x="42" y="191" width="50" height="14" rx="5" fill="#8b6914"/>
-        <rect x="56" y="188" width="20" height="6" rx="2" fill="#a07820"/>
-        <!-- cork handle -->
-        <rect x="28" y="190" width="38" height="16" rx="7" fill="#d4a574"/>
-        <!-- thread wrapping spools on shelf -->
-        <g transform="translate(0, 345)">
-          <rect x="50" y="-8" width="16" height="16" rx="8" fill="#c0392b"/>
-          <rect x="54" y="-12" width="8" height="6" rx="1" fill="#8b2010"/>
-          <rect x="54" y="8" width="8" height="6" rx="1" fill="#8b2010"/>
-          <rect x="80" y="-8" width="16" height="16" rx="8" fill="#2980b9"/>
-          <rect x="84" y="-12" width="8" height="6" rx="1" fill="#1a5c8b"/>
-          <rect x="84" y="8" width="8" height="6" rx="1" fill="#1a5c8b"/>
-          <rect x="110" y="-8" width="16" height="16" rx="8" fill="#27ae60"/>
-          <rect x="140" y="-8" width="16" height="16" rx="8" fill="#f39c12"/>
-          <rect x="170" y="-8" width="16" height="16" rx="8" fill="#8e44ad"/>
-          <rect x="200" y="-8" width="16" height="16" rx="8" fill="#1abc9c"/>
-        </g>
-        <!-- epoxy cup -->
-        <path d="M310 332 Q308 345 312 355 Q320 358 328 355 Q332 345 330 332 Z" fill="#d4c49a" opacity="0.7"/>
-        <rect x="305" y="330" width="30" height="6" rx="2" fill="#8b6914"/>
-        <!-- brush -->
-        <line x1="355" y1="195" x2="355" y2="330" stroke="#5c3d1e" stroke-width="4" stroke-linecap="round"/>
-        <rect x="348" y="310" width="14" height="22" rx="3" fill="#c8a96e"/>
-        <path d="M348 332 Q355 342 362 332" fill="#e8d5b0"/>
-        <!-- labels -->
-        <text x="210" y="468" font-family="Oswald,sans-serif" font-size="13" fill="#8b6914" text-anchor="middle" letter-spacing="2" opacity="0.7">THE WORKSHOP</text>
-      </svg>
+    <div class="about-text">
+      <p class="section-eyebrow">The Craft</p>
+      <h2>Making the Rods We Love<br/><em>Custom!</em></h2>
+      <p>Custom built casting, spinning, and saltwater rods using only the best components — made to <strong>YOUR</strong> exact specs.</p>
+      <p>I grew up fishing the flats of Tampa Bay, the mangrove creeks of the St. Johns River, and the offshore waters of the Gulf Coast. Every rod I build is designed for Florida fishing — the species, the water, and the technique.</p>
+      <p>Going custom means you choose the components, colors, and character. Whether you need a rod built for a specific technique or just want a longer butt section, I can do it. I work within a wide range of budgets and price is determined by the blank and components you choose.</p>
+      <div class="about-sig">
+        <span>— Chris, Owner &amp; Builder</span>
+      </div>
+      <a href="order.html" class="btn-red" style="margin-top:1.5rem;display:inline-block;">Commission Your Rod</a>
     </div>
   </div>
 </section>
 
-<!-- STATS -->
-<section class="stats-band">
-  <div class="container stats-inner">
-    <div class="stat-block">
-      <span class="stat-num" data-target="500">0</span><span class="stat-suffix">+</span>
-      <span class="stat-label">Custom Rods Built</span>
-    </div>
-    <div class="stat-divider"></div>
-    <div class="stat-block">
-      <span class="stat-num" data-target="15">0</span><span class="stat-suffix">+</span>
-      <span class="stat-label">Years Experience</span>
-    </div>
-    <div class="stat-divider"></div>
-    <div class="stat-block">
-      <span class="stat-num" data-target="48">0</span><span class="stat-suffix"></span>
-      <span class="stat-label">States Shipped</span>
-    </div>
-    <div class="stat-divider"></div>
-    <div class="stat-block">
-      <span class="stat-num" data-target="100">0</span><span class="stat-suffix">%</span>
-      <span class="stat-label">Handcrafted</span>
+<!-- ROD TYPES -->
+<section class="rod-types dark-section">
+  <div class="container">
+    <p class="section-eyebrow light">What We Build</p>
+    <h2 class="section-title light">Rod Styles</h2>
+    <div class="rod-grid">
+      <div class="rod-card" style="background-image:url('https://images.unsplash.com/photo-1543852786-1cf6624b9987?w=600&q=80')">
+        <div class="rod-card-overlay">
+          <h3>Bass Rods</h3>
+          <p>Flipping, frogging, finesse — built for how you fish bass.</p>
+          <a href="order.html" class="rod-link">Configure →</a>
+        </div>
+      </div>
+      <div class="rod-card" style="background-image:url('https://images.unsplash.com/photo-1591025207163-942350e47db2?w=600&q=80')">
+        <div class="rod-card-overlay">
+          <h3>Saltwater</h3>
+          <p>Snook, redfish, tarpon, tuna. Built for Florida's toughest fights.</p>
+          <a href="order.html" class="rod-link">Configure →</a>
+        </div>
+      </div>
+      <div class="rod-card" style="background-image:url('https://images.unsplash.com/photo-1516802273409-68526ee1bdd6?w=600&q=80')">
+        <div class="rod-card-overlay">
+          <h3>Trout &amp; Light</h3>
+          <p>Ultra-sensitive ultralight builds for freshwater precision.</p>
+          <a href="order.html" class="rod-link">Configure →</a>
+        </div>
+      </div>
+      <div class="rod-card" style="background-image:url('https://images.unsplash.com/photo-1544551763-77ef2d0cfc6c?w=600&q=80')">
+        <div class="rod-card-overlay">
+          <h3>Tournament</h3>
+          <p>Pro-spec builds for competitive anglers. Built to win.</p>
+          <a href="order.html" class="rod-link">Configure →</a>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -486,7 +170,8 @@
 <!-- TESTIMONIALS -->
 <section class="testimonials">
   <div class="container">
-    <h2 class="section-title">What Anglers Say</h2>
+    <p class="section-eyebrow">What Anglers Say</p>
+    <h2 class="section-title">Real Rods. Real Results.</h2>
     <div class="testi-slider" id="testiSlider">
       <div class="testi-slide active">
         <blockquote>"Chris built me a 7'3" heavy flipping stick that I took to a tournament on Lake Okeechobee. The sensitivity on that rod is unlike anything I've ever fished. Won my first tournament with it."</blockquote>
@@ -497,7 +182,7 @@
         <cite>— Dana S., Fishing Guide, Tampa Bay</cite>
       </div>
       <div class="testi-slide">
-        <blockquote>"Ordered a matched pair of rods — Chris called me to talk through the build for 20 minutes before he ever touched a blank. They arrived perfectly built and fish even better than I expected."</blockquote>
+        <blockquote>"Ordered a matched pair of rods — Chris called me to talk through the build for 20 minutes. They arrived perfectly built and fish even better than I expected."</blockquote>
         <cite>— Jeff R., Angler, St. Johns River</cite>
       </div>
       <div class="testi-slide">
@@ -517,11 +202,12 @@
 <!-- FAQ -->
 <section class="faq-section">
   <div class="container faq-inner">
+    <p class="section-eyebrow">Common Questions</p>
     <h2 class="section-title">FAQ</h2>
     <div class="faq-list">
       <div class="faq-item">
         <button class="faq-q">How much does a custom rod cost? <span>+</span></button>
-        <div class="faq-a"><p>Price depends on your blank and component choices. Entry builds start around $175, mid-grade builds from $275, and premium/tournament builds from $400. Chris provides an exact quote before any work begins.</p></div>
+        <div class="faq-a"><p>Price depends on your blank and component choices. Entry builds start around $175, mid-grade from $275, and premium/tournament builds from $400. Chris provides an exact quote before any work begins.</p></div>
       </div>
       <div class="faq-item">
         <button class="faq-q">How long until I receive my rod? <span>+</span></button>
@@ -533,7 +219,7 @@
       </div>
       <div class="faq-item">
         <button class="faq-q">What is your warranty? <span>+</span></button>
-        <div class="faq-a"><p>Lifetime craftsmanship guarantee on all builds. Any defect in wraps, guides, or handle construction — Chris makes it right. Blank manufacturer warranties also apply.</p></div>
+        <div class="faq-a"><p>Lifetime craftsmanship guarantee on all builds. Any defect in wraps, guides, or handle construction — Chris makes it right.</p></div>
       </div>
       <div class="faq-item">
         <button class="faq-q">Do you do repairs or rebuilds? <span>+</span></button>
@@ -543,19 +229,12 @@
   </div>
 </section>
 
-<!-- CONTACT CTA -->
-<section class="cta-section">
-  <div class="container center">
-    <!-- Florida outline SVG -->
-    <div class="florida-graphic">
-      <svg viewBox="0 0 140 160" xmlns="http://www.w3.org/2000/svg" class="fl-svg">
-        <path d="M40 10 L95 10 L100 15 L105 40 L108 70 L112 95 L118 115 L120 130 Q118 148 110 155 Q102 162 95 155 Q88 148 86 138 Q84 128 80 135 Q76 142 70 148 Q62 154 55 148 Q48 142 46 132 L44 118 L42 100 L36 80 L30 60 L28 35 L32 15 Z" fill="none" stroke="#c0392b" stroke-width="2.5" stroke-linejoin="round"/>
-        <!-- star for location -->
-        <circle cx="75" cy="60" r="5" fill="#c0392b"/>
-        <text x="75" y="85" font-family="Oswald,sans-serif" font-size="9" fill="#c0392b" text-anchor="middle" letter-spacing="1">FLORIDA</text>
-      </svg>
-    </div>
-    <h2>Ready to Fish Something<br/>Extraordinary?</h2>
+<!-- CTA BANNER -->
+<section class="cta-banner" style="background-image:url('https://images.unsplash.com/photo-1484291470158-b8f8d608850d?w=1400&q=80')">
+  <div class="cta-overlay"></div>
+  <div class="container center cta-content">
+    <p class="section-eyebrow light">Get Started</p>
+    <h2>Ready to Fish Something Extraordinary?</h2>
     <p>Every build starts with a conversation. Reach out today.</p>
     <a href="contact.html" class="btn-red large">Contact Me</a>
   </div>
@@ -565,12 +244,8 @@
 <footer class="site-footer">
   <div class="container footer-grid">
     <div class="footer-brand">
-      <svg class="logo-svg footer-logo" viewBox="0 0 180 54" xmlns="http://www.w3.org/2000/svg">
-        <text x="0" y="40" font-family="Oswald,sans-serif" font-weight="700" font-size="38" letter-spacing="-1" fill="#f5f0e8">CC</text>
-        <text x="54" y="40" font-family="Oswald,sans-serif" font-weight="300" font-size="38" letter-spacing="1" fill="#f5f0e8">RODS</text>
-        <line x1="0" y1="47" x2="178" y2="47" stroke="#c0392b" stroke-width="2.5"/>
-        <path d="M170 47 Q178 47 178 54" fill="none" stroke="#c0392b" stroke-width="2.5" stroke-linecap="round"/>
-      </svg>
+      <div class="footer-logo-text">CC<span>RODS</span></div>
+      <div class="footer-logo-line"></div>
       <p>Handcrafted custom fishing rods.<br/>Built one at a time in Florida, USA.</p>
       <div class="footer-social">
         <a href="#">Instagram</a>
