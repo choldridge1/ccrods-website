@@ -5,35 +5,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>The Workbench Blog | Chris's Custom Rods</title>
   <meta name="description" content="Rod building tips, fishing guides, gear reviews, and stories from the workbench at Chris's Custom Rods."/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="css/style.css"/>
-  <link rel="preconnect" href="https://fonts.googleapis.com"/>
-  <link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/><link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet"/>
 </head>
 <body>
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a href="index.html" class="logo-wrap">
+      <div class="logo-text">CC<span>RODS</span></div>
+      <div class="logo-line"></div>
+    </a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog.html" class="active">Order</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <a href="order.html" class="header-cta">Build My Rod</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-nav" id="mobileNav">
+    <button class="close-nav" id="closeNav">✕</button>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="order.html">Order</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="order.html" class="btn-red">Build My Rod</a>
+  </div>
+</header>
 
-<nav class="nav" id="nav">
-  <a href="index.html" class="logo-wrap"><div class="logo-text">CC<span>RODS</span></div><div class="logo-line"></div></a>
-  <ul class="nav-links">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="order.html">Order</a></li>
-    <li><a href="blog.html" class="active">Blog</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
-  <a href="order.html" class="nav-cta">Build Your Rod</a>
-  <button class="hamburger" id="hamburger">&#9776;</button>
-</nav>
-
-<div class="mobile-menu" id="mobileMenu">
-  <button class="close-menu" id="closeMenu">&#10005;</button>
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="order.html">Order</a></li>
-    <li><a href="blog.html">Blog</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
-</div>
-
-<section class="page-hero"><div class="page-hero-img" style="background-image:url('https://images.unsplash.com/photo-1574788596380-70f89c2d3c58?w=800&q=80')"></div>
+<section class="page-hero"><div class="page-hero-img" style="background-image:url('https://images.pexels.com/photos/831950/pexels-photo-831950.jpeg?auto=compress&cs=tinysrgb&w=1400')"></div>
   <div class="container">
     <span class="label light">From the Workbench</span>
     <h1>The CCRods Blog</h1>
